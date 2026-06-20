@@ -107,9 +107,9 @@ else:
 
     for site, email, senha in senhas:
 
-        st.write(f"🌐 Site: {site}")
-        st.write(f"📧 Usuário: {email}")
-        st.write(f"🔑 Senha: {senha}")
+        st.write(f" Site: {site}")
+        st.write(f" Usuário: {email}")
+        st.write(f" Senha: {senha}")
         st.divider()
 
 
