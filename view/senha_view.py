@@ -17,7 +17,7 @@ class SenhaView:
 
     def tela_login(self):
 
-        st.title("🔐 Gerenciador de Senhas")
+        st.title(" Gerenciador de Senhas")
 
         usuario = st.text_input("Usuário")
         senha = st.text_input(
@@ -52,7 +52,7 @@ class SenhaView:
 
     def tela_cofre(self):
 
-        st.title("Meu Cofre 🔒")
+        st.title("Minhas senhas")
 
         site = st.text_input(
             "Nome do site"
